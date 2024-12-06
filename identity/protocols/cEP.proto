@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+message CEPIdentification {
+  string peer_id = 1;
+  string public_key = 2;
+  string nonce = 3;
+  string timestamp = 4;
+  string version = 5;
+}
+
+message CEPResponse {
+  string peer_id = 1;
+  string public_key = 2;
+  string signed_nonce = 3;
+}
+
+message CepMessage {
+  oneof cep_type {
+    CEPIdentification identification = 1;
+    CEPResponse response = 2;
+  }
+}

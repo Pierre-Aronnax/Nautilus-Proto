@@ -1,0 +1,21 @@
+[package]
+name = "identity"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand_core = {version = "0.6"}
+rsa = {version = "0.9.6",features = ["sha2"]}
+sha2 = "0.10.1"
+zeroize = "1.0"
+uuid = {version = "1.0",features = ["v4"]}
+base64 = "0.22.1"
+tokio = { version = "1", features = ["full"] }
+prost = "0.11"
+prost-types = "0.11"
+chrono = "0.4"
+[build-dependencies]
+prost-build = "0.11"
+
+[dev-dependencies]
+tokio-test = "0.4"
