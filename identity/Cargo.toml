@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 keywords = ["decentralization","prototype","Peer-2-Peer"]
-
+description = "This is a library used for generating Decentralied Identity"
 [dependencies]
 rand_core = {version = "0.6"}
 rsa = {version = "0.9.6",features = ["sha2"]}
