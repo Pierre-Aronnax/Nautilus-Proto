@@ -3,6 +3,8 @@ name = "discovery"
 version = "0.1.0"
 edition = "2021"
 description = "This is the discovery module responsible for performing user discovery for decentralized networks"
+license = "MIT OR Apache-2.0"
+keywords = ["decentralization","prototype","Peer-2-Peer"]
 
 [dependencies]
 rand = "0.8.0"
