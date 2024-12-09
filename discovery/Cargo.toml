@@ -1,5 +1,5 @@
 [package]
-name = "discovery"
+name = "nautilus-discovery"
 version = "0.1.0"
 edition = "2021"
 description = "This is the discovery module responsible for performing user discovery for decentralized networks"
