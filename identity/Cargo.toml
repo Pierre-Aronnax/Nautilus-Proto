@@ -1,7 +1,9 @@
 [package]
-name = "identity"
+name = "nautilus-identity"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+keywords = ["decentralization","prototype","Peer-2-Peer"]
 
 [dependencies]
 rand_core = {version = "0.6"}
