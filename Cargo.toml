@@ -2,6 +2,9 @@
 name = "Nautilus-Proto"
 version = "0.1.0"
 edition = "2021"
+description = "This is Nautilus, a Prototype rust Library aimed for Decentralized Communication and Networking with a main focus being placed on exploring more themes in Decentralization and consense mechanisms for Self-Healing and Organizing Netowrks"
+license = "MIT OR Apache-2.0"
+keywords = ["decentralization","prototype","Peer-2-Peer"]
 
 [dependencies]
 
